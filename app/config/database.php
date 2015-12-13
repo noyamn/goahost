@@ -61,7 +61,8 @@ return array(
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-            'unix_socket'   => '/var/lib/openshift/566d32dc2d5271d8860001c7/mysql//socket/mysql.sock', 
+            'unix_socket'   => '/var/lib/openshift/566d32dc2d5271d8860001c7/mysql/socket/mysql.sock
+', 
 		),
 
 		'pgsql' => array(
