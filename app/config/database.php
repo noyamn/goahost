@@ -54,13 +54,14 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.6.152.2',
+			'host'      => 'localhost',
 			'database'  => 'goa',
 			'username'  => 'adminTY3XZ79',
 			'password'  => 'mHx-CRXNDNE_',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
+            'unix_socket'   => '/var/lib/openshift/566d32dc2d5271d8860001c7/mysql//socket/mysql.sock', 
 		),
 
 		'pgsql' => array(
