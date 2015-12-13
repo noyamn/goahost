@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.0.0.1',
-			'database'  => 'goa',
-			'username'  => 'adminTY3XZ79',
-			'password'  => 'mHx-CRXNDNE_',
+'host'         => isset($_SERVER['DB1_HOST']) ? $_SERVER['DB1_HOST'] : '127.0.0.1',
+'database'    => isset($_SERVER['DB1_NAME']) ? $_SERVER['DB1_NAME'] : 'goa',
+'username'    => isset($_SERVER['DB1_USER']) ? $_SERVER['DB1_USER'] : 'adminTY3XZ79',
+'password'    => isset($_SERVER['DB1_PASS']) ? $_SERVER['DB1_PASS'] : 'mHx-CRXNDNE_',            
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
